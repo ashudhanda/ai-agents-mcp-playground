@@ -1,0 +1,27 @@
+{
+  "name": "ai-agents-mcp-playground",
+  "version": "0.1.0",
+  "description": "AI Agents + MCP (Model Context Protocol) playground with practical Node.js examples",
+  "type": "module",
+  "main": "src/01-basic-agent.js",
+  "scripts": {
+    "agent": "node src/01-basic-agent.js",
+    "tools": "node src/02-tool-calling.js",
+    "memory": "node src/03-memory-agent.js",
+    "mcp": "node src/04-mcp-server.js"
+  },
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "mcp",
+    "model-context-protocol",
+    "llm",
+    "tool-calling",
+    "nodejs"
+  ],
+  "author": "Ashu Dhanda",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
